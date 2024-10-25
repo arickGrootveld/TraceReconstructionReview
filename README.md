@@ -1,6 +1,5 @@
 # TraceReconstructionReview
-Welcome to Trace Reconstruction Review (TRR), a central repository for all things trace reconstruction
-
+Welcome to Trace Reconstruction Review (TRR), a central repository for all things trace reconstruction.
 
 We've got string trace reconstruction, we've got tree trace reconstruction, we've got graph trace reconstruction. 
 
