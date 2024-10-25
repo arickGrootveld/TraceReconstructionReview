@@ -1,5 +1,5 @@
-% Reconstructing Strings From Random Traces
-- \cite{batu2004reconstructing} by Tugkan Batu, Sampath Kannan, Sanjeev Khanna, and Andrew McGregor. This paper introduces the problem of string trace reconstruction. 
+# Reconstructing Strings From Random Traces
+\cite{batu2004reconstructing} by Tugkan Batu, Sampath Kannan, Sanjeev Khanna, and Andrew McGregor. This paper introduces the problem of string trace reconstruction. 
     
 The motivation is the ``sequence-alignment problem'' from biology, which is the problem of aligning a sequence (or string) of DNA characters, given that the sequences underwent mutations which can add, delete or replace elements of the sequence. They assume a simplified version of the problem, where only deletions are allowed as sequence mutations. 
 
@@ -8,4 +8,13 @@ Formally, their problem statement is: given a string $t$ of length $n$, each tra
 To solve this problem they use an algorithm they call ``Bitwise Majority Alignment'', which attempts to find an index-based alignment, so that the majority of the traces will be in agreement on what the next element of the string is. More clearly, for each trace $\tilde{t}_1$, $\dots$, $\tilde{t}_m$, they look at an index variable that will point to what the trace thinks should be the next element of the string. Then, by using a majority voting scheme, the algorithm decides what the next value of the string should be, and those traces that agreed with the vote get moved up an index, and those that did not agree with the vote will not have their index incremented. The idea is that if an element was deleted from a trace then when the algorithm gets to the string index that was deleted from the trace, it will hold the trace back one step when it disagrees with the majority (and the majority will not have that element deleted by averaging), it will be held back one step because of its disagreement, which will bring it in alignment with the actual values of the original string $t$. 
 
 The paper provides these guarantees: For the vast majority of strings, and $q = O\left(\frac{1}{\log(n)}\right)$, they can reconstruct the string with only $m = O\left(
-\log(n)\right)$ traces. They also show that $m=\Omega\left(\frac{\log(n)}{\log(\log(n))}\right)$ strings are necessary to recover the original string. As another result, they show that if $q = \Omega\left(1 / n^{1/2 + \eps}\right)$ they can recover a string very close to the original string with only $m = O\left(\frac{1}{\eps}\right)$ traces. 
+\log(n)\right)$ traces. They also show that $m=\Omega\left(\frac{\log(n)}{\log(\log(n))}\right)$ strings are necessary to recover the original string. As another result, they show that if $q = \Omega\left(1 / n^{1/2 + \varepsilon}\right)$ they can recover a string very close to the original string with only $m = O\left(\frac{1}{\varepsilon}\right)$ traces. 
+
+
+# Trace Reconstruction: Generalized and Parameterized
+\cite{krishnamurthy2021trace} by Akshay Krishnamurthy, Arya Mazumdar, Andrew McGregor, and Soumyabrata Pal. This paper does ${\textsf{\color{red}TODO: }}$ **Write about this paper** 
+
+
+
+
+
