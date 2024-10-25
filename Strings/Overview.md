@@ -1,4 +1,5 @@
-\cite{batu2004reconstructing} ``Reconstructing Strings From Random Traces'' by Tugkan Batu, Sampath Kannan, Sanjeev Khanna, and Andrew McGregor. This paper introduces the problem of string trace reconstruction. 
+% Reconstructing Strings From Random Traces
+- \cite{batu2004reconstructing} by Tugkan Batu, Sampath Kannan, Sanjeev Khanna, and Andrew McGregor. This paper introduces the problem of string trace reconstruction. 
     
 The motivation is the ``sequence-alignment problem'' from biology, which is the problem of aligning a sequence (or string) of DNA characters, given that the sequences underwent mutations which can add, delete or replace elements of the sequence. They assume a simplified version of the problem, where only deletions are allowed as sequence mutations. 
 
