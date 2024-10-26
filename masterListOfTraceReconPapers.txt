@@ -1,0 +1,37 @@
+A list of trace reconstruction and population reconstruction papers to read:
+
+- A Survey of Results for Deletion Channels and Related Synchronization Channels
+- Trace Reconstruction Problems in Computational Biology
+- Coded trace reconstruction in a constant number of traces
+- Improved Algorithms for Population Recovery from the Deletion Channel
+- Optimal mean-based algorithms for trace reconstruction
+- Trace reconstruction with exp(O(n1/3)) samples
+
+- Beyond Trace Reconstruction: Population Recovery from the Deletion Channel
+- Subpolynomial trace reconstruction for random strings and
+arbitrary deletion probability
+- Approximate Trace Reconstruction from a Single Trace
+- Trace Reconstruction Revisited
+- Coded Trace Reconstruction
+- Trace reconstruction with constant deletion probability and related
+results
+- Separating words and trace reconstruction
+- Lower bounds for trace reconstruction
+- Approximate Trace Reconstruction: Algorithms
+- Subpolynomial trace reconstruction for random strings and arbitrary deletion probability
+- New upper bounds for trace reconstruction
+- Trace reconstruction of matrices and hypermatrices
+- Limitations of mean-based algorithms for trace reconstruction at small distance
+- Near-optimal average-case approximate trace reconstruction from few traces
+- Trace reconstruction with bounded edit distance
+- Trace reconstruction from local statistical queries
+- Mean-based trace reconstruction over practically any replication-insertion channel
+- On -Mer-Based and Maximum Likelihood Estimation Algorithms for Trace Reconstruction
+- Polynomial-time trace reconstruction in the low deletion rate regime
+- Tree trace reconstruction using subtraces
+- Approximate trace reconstruction via median string (in average-case)
+- The Quasi-probability Method and Applications for Trace Reconstruction
+- Optimal Codes Detecting Deletions in Concatenated Binary Strings Applied to Trace Reconstruction
+- Circular Trace Reconstruction
+- Polynomial-time trace reconstruction in the smoothed complexity model
+- Trace Reconstruction Problem (Aldo Pacchiano's thesis)
