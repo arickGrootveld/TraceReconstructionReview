@@ -12,7 +12,7 @@ The paper provides these guarantees: For the vast majority of strings, and $q = 
 
 
 # Trace Reconstruction: Generalized and Parameterized
-\cite{krishnamurthy2021trace} by Akshay Krishnamurthy, Arya Mazumdar, Andrew McGregor, and Soumyabrata Pal. This paper does ${\textsf{\color{red}TODO: }}$ **Write about this paper** 
+\cite{krishnamurthy2021trace} by Akshay Krishnamurthy, Arya Mazumdar, Andrew McGregor, and Soumyabrata Pal. This paper does ${\textsf{\color{red}TODO: }}$ **This is the next paper to be covered** 
 
 
 
