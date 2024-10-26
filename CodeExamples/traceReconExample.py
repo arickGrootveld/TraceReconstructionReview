@@ -12,7 +12,7 @@ import numpy as np
 ## User parameters 
 ##
 
-## To Julia: You can change these parameters to get different length sequences
+## To Juliana: You can change these parameters to get different length sequences
 #                    or to get more traces, or other stuff
 
 sequenceLength = 10     # Length of the sequence (the thing to be recovered)
