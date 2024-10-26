@@ -13,8 +13,7 @@ arbitrary deletion probability
 - Approximate Trace Reconstruction from a Single Trace
 - Trace Reconstruction Revisited
 - Coded Trace Reconstruction
-- Trace reconstruction with constant deletion probability and related
-results
+- Trace reconstruction with constant deletion probability and related results
 - Separating words and trace reconstruction
 - Lower bounds for trace reconstruction
 - Approximate Trace Reconstruction: Algorithms
