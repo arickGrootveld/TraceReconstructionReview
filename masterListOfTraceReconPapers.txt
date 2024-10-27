@@ -1,12 +1,15 @@
 A list of trace reconstruction and population reconstruction papers to read:
 
+Covered:
+- Reconstructing Strings From Random Traces
+
+Uncovered: 
 - A Survey of Results for Deletion Channels and Related Synchronization Channels
 - Trace Reconstruction Problems in Computational Biology
 - Coded trace reconstruction in a constant number of traces
 - Improved Algorithms for Population Recovery from the Deletion Channel
 - Optimal mean-based algorithms for trace reconstruction
 - Trace reconstruction with exp(O(n1/3)) samples
-
 - Beyond Trace Reconstruction: Population Recovery from the Deletion Channel
 - Subpolynomial trace reconstruction for random strings and
 arbitrary deletion probability
