@@ -23,14 +23,19 @@ Their results are as follows:
 - *Theorem 4*: They define a matrix deletion for a $\sqrt{n} \times \sqrt{n}$-dimensional matrix to be where you delete row and column $i$ with probability $p$ (both row and column are deleted at the same time). Then $\exp\{O(n^{1/4}/(1-p) \sqrt{p \log(n)})\}$ traces are sufficient to recover the matrix with high probability.
 - *Theorem 5*: Let $X \in \{ 0,1 \}^{\sqrt{n} \times \sqrt{n}}$ be such that each element has distribution Bern(1/2). Then $O(\log(n))$ traces suffice to recover $X$ with high probability.
 
+${\textsf{\color{red}TODO: }}$ **Go over the algorithms and the techniques used in this paper.**
 
 
 # Optimal Mean-Based Algorithms for Trace Reconstruction 
-\cite{de2017optimal} by Anindya De, Ryan O’Donnell, Rocco A. Servedio. This paper provides a very clean solution that gave state of the art 
-
-${\textsf{\color{red}TODO: }}$ **This is the next paper to be covered** . 
+\cite{de2017optimal} by Anindya De, Ryan O’Donnell, Rocco A. Servedio. This paper provides a very clean solution that gave the state of the art for worst case string trace reconstruction, where they required $m = \exp(O(n)^{1/3})$ traces. This was eventually improved in \cite{chase2020new}, where they improved the result to $m = \exp(O(n)^{1/5})$ using different polynomials and other techniques. 
 
 Ryan O'Donnell explains the paper far better than I could in [this YouTube video](https://www.youtube.com/watch?v=Ys11H5smSIM). 
+
+This paper was a serious step forward in string trace reconstruction, specifically because it showed an equivalence between the string trace reconstruction problem, and finding Littlewood polynomials on an disk in the complex plane with the smallest modulus. They first showed that the worst case string trace reconstruction problem can be made equivlanent to finding a polynomial with small modulus on the unit disk in the complex plane, and then reduced that problem through probabilistic analysis to the eventual problem. 
+
+The paper also showed results for a general deletion, insertion, bit flip channel, though the analysis process was largely the same as the deletion channel. They also found an interesting result, that sometimes more insertions can help with string trace recovery in very specific settings. 
+
+
 
 
 
