@@ -33,7 +33,7 @@ Ryan O'Donnell explains the paper far better than I could in [this YouTube video
 
 This paper was a serious step forward in string trace reconstruction, specifically because it showed an equivalence between the string trace reconstruction problem, and finding Littlewood polynomials on an disk in the complex plane with the smallest modulus. They first showed that the worst case string trace reconstruction problem can be made equivlanent to finding a polynomial with small modulus on the unit disk in the complex plane, and then reduced that problem through probabilistic analysis to the eventual problem. 
 
-The paper also showed results for a general deletion, insertion, bit flip channel, though the analysis process was largely the same as the deletion channel. They also found an interesting result, that sometimes more insertions can help with string trace recovery in very specific settings. 
+The paper also showed results for a general deletion, insertion, bit flip channel, though the analysis process was largely the same as the deletion channel. The sample complexity stayed relatively similar to the sample complexity of recovering from the deletion channel. They also found an interesting result, that sometimes more insertions can help with string trace recovery in very specific settings. 
 
 
 
