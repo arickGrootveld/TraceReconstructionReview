@@ -26,7 +26,9 @@ Their results are as follows:
 
 
 # Optimal Mean-Based Algorithms for Trace Reconstruction 
-\cite{de2017optimal} by Anindya De, Ryan O’Donnell, Rocco A. Servedio. ${\textsf{\color{red}TODO: }}$ **This is the next paper to be covered** . 
+\cite{de2017optimal} by Anindya De, Ryan O’Donnell, Rocco A. Servedio. This paper provides a very clean solution that gave state of the art 
+
+${\textsf{\color{red}TODO: }}$ **This is the next paper to be covered** . 
 
 Ryan O'Donnell explains the paper far better than I could in [this YouTube video](https://www.youtube.com/watch?v=Ys11H5smSIM). 
 
