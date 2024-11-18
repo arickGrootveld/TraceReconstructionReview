@@ -23,6 +23,9 @@ Their results are as follows:
 - *Theorem 4*: They define a matrix deletion for a $\sqrt{n} \times \sqrt{n}$-dimensional matrix to be where you delete row and column $i$ with probability $p$ (both row and column are deleted at the same time). Then $\exp\{O(n^{1/4}/(1-p) \sqrt{p \log(n)})\}$ traces are sufficient to recover the matrix with high probability.
 - *Theorem 5*: Let $X \in ( 0,1 )^{\sqrt{n} \times \sqrt{n}}$ be such that each element has distribution Bern(1/2). Then $O(\log(n))$ traces suffice to recover $X$ with high probability.
 
+
+To prove Theorem 1, they show a stronger result involving an Austere Deletion Channel (ADC). An Austere Deletion Channel is a channel that deletes all but one "0", where the "0" not deleted is chosen uniformly at random. They connect this to the standard deletion channel through simple probabilistic arguments. They then show that essentially the same number of traces are required to reconstruct from the ADC as the claim in Theorem 1. They do this by thinking of $x$ as a multiset $(r_1, \dots, r_{n_0})$, where $r_i$ is the number of 1s before the $i$th 0 appears in the string. Then, they show that by taking $s_k$ to be the number of 1s in front of the only 0 in the $k$th sample from an ADC, they can write the distribution of $s_k$ as a mixture of Binomial distributions, where each Binomial distribution in the mixture is Bin($r_i$, $1 - p_1$) [ $p_1$ is the probability of deleting 1s, which is just $p$ in Theorem 1 ].  
+
 ${\textsf{\color{red}TODO: }}$ **Go over the algorithms and the techniques used in this paper.**
 
 
