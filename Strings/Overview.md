@@ -34,7 +34,7 @@ ${\textsf{\color{red}TODO: }}$ **Go over the algorithms and the techniques used 
 
 
 # Optimal Mean-Based Algorithms for Trace Reconstruction 
-\cite{de2017optimal} by Anindya De, Ryan O’Donnell, Rocco A. Servedio. This paper provides a very clean solution that gave the state of the art for worst case string trace reconstruction, where they required $m = \exp(O(n)^{1/3})$ traces. This was eventually improved in \cite{chase2020new}, where they improved the result to $m = \exp(O(n)^{1/5})$ using different polynomials and other techniques. 
+\cite{de2017optimal} by Anindya De, Ryan O’Donnell, Rocco A. Servedio. This paper provides a very clean solution that gave the state of the art for worst case string trace reconstruction, where they required $m = \exp(O(n)^{1/3})$ traces. _This was eventually improved in \cite{chase2020new}, where they improved the result to $m = \exp(O(n)^{1/5})$ using different polynomials and other techniques_. 
 
 Ryan O'Donnell explains the paper far better than I could in [this YouTube video](https://www.youtube.com/watch?v=Ys11H5smSIM). 
 
