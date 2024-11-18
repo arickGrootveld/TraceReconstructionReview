@@ -44,6 +44,9 @@ The paper also showed results for a general deletion, insertion, bit flip channe
 
 
 
+# New Upper Bounds for Trace Reconstruction
+\cite{chase2020new} by Zachary Chase. This paper improves on the previous $m = \exp(O(n)^{1/3})$ bound for worst case string trace reconstruction, improving it to $m = \exp(\tilde{O}(n)^{1/5})$ instead. 
 
+${\textsf{\color{red}TODO: }}$ **Review this paper next**
 
 
