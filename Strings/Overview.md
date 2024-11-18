@@ -20,7 +20,7 @@ Their results are as follows:
 - *Theorem 1*: For a string $x \in (0,1)^n$, with at most $k$ non-zero elements, then assuming $1 - p = \Omega( k^{-1/2} \log(n) )$, $m = \exp\{ O( (k/(1-p))^{1/3} \log^{2/3}(n) ) \}$ traces will allow recovery with high probability.
 - *Theorem 2*: Again, $k$ being the sparsity of the string. If each $1$ is separated by at least $\Omega(k \log(n) )$ 0's, then for any $p$ poly $(n)$ traces suffice.
 - *Theorem 3*: For any $x,y \in \{0,1\}$ with Hamming distance $d_H(x,y) \leq 2k$, and if $p \leq 1 - k/n$, then $\exp\{O(k \log(n))\}$ traces are enough to distinguish between $x$ and $y$.
-- *Theorem 4*: They define a matrix deletion for a $\sqrt{n} \times \sqrt{n}$-dimensional matrix to be where you delete row and column $i$ with probability $p$ (both row and column are deleted at the same time). Then $\exp\{O(n^{1/4}/(1-p) \sqrt{p \log(n)})\}$ traces are sufficient to recover the matrix with high probability.
+- *Theorem 4*: They define a matrix deletion for a $\sqrt{n} \times \sqrt{n}$-dimensional matrix to be where you delete row and column $i$ with probability $p$ (both row and column are deleted at the same time). They show $\exp\{O(n^{1/4}/(1-p) \sqrt{p \log(n)})\}$ traces are sufficient to recover the matrix from a matrix deletion channel, with high probability.
 - *Theorem 5*: Let $X \in ( 0,1 )^{\sqrt{n} \times \sqrt{n}}$ be such that each element has distribution Bern(1/2). Then $O(\log(n))$ traces suffice to recover $X$ with high probability.
 
 
