@@ -37,3 +37,4 @@ arbitrary deletion probability
 - Circular Trace Reconstruction
 - Polynomial-time trace reconstruction in the smoothed complexity model
 - Trace Reconstruction Problem (Aldo Pacchiano's thesis)
+- Near-Optimal Trace Reconstruction for Mildly Separated Strings
