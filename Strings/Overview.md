@@ -61,9 +61,13 @@ The paper also showed results for a general deletion, insertion, bit flip channe
 The main result of this paper is: 
 - *Theorem 1*: For any deletion probability $q \in (0,1)$ and any $\delta > 0$, there exists $C > 0$ so that any unknown string $x \in \{0,1\}^n$ can be reconstructed with probability at least $> 1 - \delta$ from $T = \exp(Cn \log^5(n))$ i.i.d. traces of $x$.
 
-As of the writing of this document, this is the current state of the art result for trace reconstruction of arbitrary binary strings. The authors adapt the technique used in \cite{de2017optimal} and \cite{nazarov2017trace}. Instead of looking at polynomials who's coefficients are described $\sum_{k=1}^n [x_k -y_k]z^k$, i.e. polynomials with coefficients described by the difference in bit values between the elements of a trace $y$ and the original string $x$, this paper instead used polynomials described by $\sum_{k=1}^n [1_{x_{k+i} = w_i} - 1_{y_{k+i} = w_i}] z^k$, which measures whether a substring of a trace $y$ agrees with the original string $x$. This uses the shorthand $1_{x_{k+i} = w_i} = \prod_{i=1}^{|w|-1} 1_{x_{k+i} = w_i}$ which asks if the indices starting from $x_{k}$ and going to $x_{k+|w|-1}$ agree with the substring $w$. 
+This is the current state of the art result for trace reconstruction of arbitrary binary strings. The authors adapt the technique used in \cite{de2017optimal} and \cite{nazarov2017trace}. Instead of looking at polynomials who's coefficients are described $\sum_{k=1}^n [x_k -y_k]z^k$, i.e. polynomials with coefficients described by the difference in bit values between the elements of a trace $y$ and the original string $x$, this paper instead used polynomials described by $\sum_{k=1}^n [1_{x_{k+i} = w_i} - 1_{y_{k+i} = w_i}] z^k$, which measures whether a substring of a trace $y$ agrees with the original string $x$. This uses the shorthand $1_{x_{k+i} = w_i} = \prod_{i=1}^{|w|-1} 1_{x_{k+i} = w_i}$ which asks if the indices starting from $x_{k}$ and going to $x_{k+|w|-1}$ agree with the substring $w$. 
 
 They specifically choose the $w$'s that they test with so that these polynomials will be sparser near 1 on the real axis, which combined with the authors result on the separating words problem \cite{chase2020new} along with the results in \cite{borwein1997littlewood} to get an even tighter upper bound on the number of required traces for this problem. 
+
+
+# Coded Trace Reconstruction 
+\cite{cheraghchi2020coded} by Mahdi Cherargchi, Ryan Gabrys, Olgica Milenkovic, João Ribeiro. 
 
 ${\textsf{\color{red}TODO: }}$ **Review this paper next**
 
