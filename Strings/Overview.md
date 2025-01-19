@@ -1,3 +1,16 @@
+Table of current best bounds for various problems (to the best of my knowledge and at the time of this writing):
+| **Result Type** | **Result** | **Paper** | **Date of Result** |
+|:---------------:|:----------:|:---------:|:------------------:|
+| (Upper Bound) Arbitrary String Trace Reconstruction | $\exp(O(n^{1/5} \log^{5}(n)))$ traces | New Upper Bounds For Trace Reconstruction |         January, 2022 |
+| (Lower Bound) Arbitrary String Trace Reconstruction | ${\textsf{\color{red}TODO: }}$ **Fill in the rest of this table** |  |   |
+| (Upper Bound) Random String Trace Reconstruction |   |   |   |
+| (Lower Bound) Random String Trace Reconstruction |   |   |   |
+|   |    |    |  |
+|   |    |    |  |
+|   |    |    |  |
+
+
+
 # Reconstructing Strings From Random Traces
 \cite{batu2004reconstructing} by Tugkan Batu, Sampath Kannan, Sanjeev Khanna, and Andrew McGregor. This paper introduces the problem of string trace reconstruction. 
     
