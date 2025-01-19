@@ -1,7 +1,7 @@
 Table of current best bounds for various problems (to the best of my knowledge and at the time of this writing):
 | **Result Type** | **Result** | **Paper** | **Date of Result** |
 |:---------------:|:----------:|:---------:|:------------------:|
-| (Upper Bound) Arbitrary String Trace Reconstruction | $\exp(O(n^{1/5} \log^{5}(n)))$ traces | New Upper Bounds For Trace Reconstruction |         2020 |
+| (Upper Bound) Arbitrary String Trace Reconstruction | $\exp\left(O(n^{1/5} \log^{5}(n))\right)$ traces | New Upper Bounds For Trace Reconstruction |         2020 |
 | (Lower Bound) Arbitrary String Trace Reconstruction | $\Omega\left(\frac{n^{3/2}}{\log^7(n)}\right)$ | New Lower Bounds for Trace Reconstruction | 2019 |
 | (Upper Bound) Random String Trace Reconstruction |   |   |   |
 | (Lower Bound) Random String Trace Reconstruction |   |   |   |
