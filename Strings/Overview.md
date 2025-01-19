@@ -4,9 +4,8 @@ Table of current best bounds for various problems (to the best of my knowledge a
 | (Upper Bound) Arbitrary String Trace Reconstruction | $\exp\left(O(n^{1/5} \log^{5}(n))\right)$ | New Upper Bounds For Trace Reconstruction |         2020 |
 | (Lower Bound) Worst Case String Trace Reconstruction | $\Omega\left(\frac{n^{3/2}}{\log^7(n)}\right)$ | New Lower Bounds for Trace Reconstruction | 2019 |
 | (Lower Bound) Average Case String Trace Reconstruction  |  $\Omega\left(\frac{\log^{5/2}(n)}{(\ \log(\log(n))\ )^7}\right)$  |  New Lower Bounds for Trace Reconstruction  | 2019 |
-| (Upper Bound) Random String Trace Reconstruction |   |   |   |
-| (Lower Bound) Random String Trace Reconstruction |   |   |   |
-|   |    |    |  |
+| (Upper Bound) Random String Trace Reconstruction | $\exp\left(O(\log^{1/3}(n))\right)$  | Subpolynomial trace reconstruction for random strings and arbitrary deletion probability  | 2018  |
+| (Upper Bound) Coded Trace Reconstruction  |    |    |  |
 |   |    |    |  |
 |   |    |    |  |
 ${\textsf{\color{red}TODO: }}$ **Fill in the rest of this table**
