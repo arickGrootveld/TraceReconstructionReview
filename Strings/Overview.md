@@ -26,11 +26,7 @@ Their results are as follows:
 
 To prove Theorem 1, they show a stronger result involving an Austere Deletion Channel (ADC). An Austere Deletion Channel is a channel that deletes all but one "0", where the "0" not deleted is chosen uniformly at random. They connect this to the standard deletion channel through simple probabilistic arguments. They then show that essentially the same number of traces are required to reconstruct from the ADC as the claim in Theorem 1. They do this by thinking of $x$ as a multiset $(r_1, \dots, r_{n_0})$, where $r_i$ is the number of 1s before the $i$th 0 appears in the string. Then, they show that by taking $s_k$ to be the number of 1s in front of the only 0 in the $k$th sample from an ADC, they can write the distribution of $s_k$ as a mixture of Binomial distributions, where each Binomial distribution in the mixture is Bin($r_i$, $1 - p_1$) [ $p_1$ is the probability of deleting 1s, which is just $p$ in Theorem 1 ]. Finally, they do a little bit more manipulation, and then apply a technique similar to \cite{nazarov2017trace} ("Trace Reconstruction with $\exp(O(n)^{1/3}$ samples"), to show the sample complexity of learning the $r_i$'s from $s_1, \dots, s_m$, which is essentially the same sample complexity as they claim in Theorem 1. 
 
-To prove Theorem 2 they construct a graph for each trace on $k$ vertices. Each vertex in the graph is given a visible vertex label, $z_v$, that corresponds to the position of a corresponding 1 in the received trace, and an invisible label, $y_v$, that corresponds to the order (among 1's) that the associated 1 had in the original string. They construct edges between vertices $v$ and $w$ if $|z_v - z_w| \leq 2 c\sqrt{n \log(n)}$, where the threshold comes from a Chernoff concentration result. They then perform recursion, similar to a hierarchical clustering algorithm, to get the weaker bound they require in Theorem 2. ${\textsf{\color{red}TODO: }}$ **Describe the recursion.**
-
-... 
-
-${\textsf{\color{red}TODO: }}$ **Go over the algorithms and the techniques used in this paper.**
+To prove Theorem 2 they construct a graph for each trace on $k$ vertices. Each vertex in the graph is given a visible vertex label, $z_v$, that corresponds to the position of a corresponding 1 in the received trace, and an invisible label, $y_v$, that corresponds to the order (among 1's) that the associated 1 had in the original string. They construct edges between vertices $v$ and $w$ if $|z_v - z_w| \leq 2 c\sqrt{n \log(n)}$, where the threshold comes from a Chernoff concentration result. They then perform recursion, similar to a hierarchical clustering algorithm, to get the weaker bound they require in Theorem 2. 
 
 
 # Optimal Mean-Based Algorithms for Trace Reconstruction 
@@ -46,6 +42,13 @@ The paper also showed results for a general deletion, insertion, bit flip channe
 
 # New Upper Bounds for Trace Reconstruction
 \cite{chase2020new} by Zachary Chase. This paper improves on the previous $m = \exp(O(n)^{1/3})$ bound for worst case string trace reconstruction, improving it to $m = \exp(\tilde{O}(n)^{1/5})$ instead. 
+
+The main result of this paper is: 
+- *Theorem 1*: For any deletion probability $q \in (0,1)$ and any $\delta > 0$, there exists $C > 0$ so that any unknown string $x \in \{0,1\}^n can be reconstructed with probability at least $> 1 - \delta$ from $T = \exp(Cn \log^5(n))$ i.i.d. traces of $x$.
+
+As of the writing of this document, this is the current state of the art result for trace reconstruction of arbitrary binary strings. The authors adapt the technique used in \cite{de2017optimal} and \cite{nazarov2017trace}. Instead of looking at polynomials who's coefficients are described $\sum_{k=1}^n [x_k -y_k]z^k$, i.e. polynomials with coefficients described by the difference in bit values between the elements of a trace $y$ and the original string $x$, this paper instead used polynomials described by $\sum_{k=1}^n [1_{x_{k+i} = w_i} - 1_{y_{k+i} = w_i}] z^k$, which measures whether a substring of a trace $y$ agrees with the original string $x$. This uses the shorthand $1_{x_{k+i} = w_i} = \prod_{i=1}^{|w|-1} 1_{x_{k+i} = w_i}$ which asks if the indices starting from $x_{k}$ and going to $x_{k+|w|-1}$ agree with the substring $w$. 
+
+They specifically choose the $w$'s that they test with so that these polynomials will be sparser near 1 on the real axis, which combined with the authors result on the separating words problem \cite{chase2020new} ...
 
 ${\textsf{\color{red}TODO: }}$ **Review this paper next**
 
