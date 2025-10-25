@@ -15,6 +15,7 @@ Uncovered:
 arbitrary deletion probability
 - Approximate Trace Reconstruction from a Single Trace
 - Trace Reconstruction Revisited
+- Trace Reconstruction: Generalized and Parameterized
 - Coded Trace Reconstruction
 - Trace reconstruction with constant deletion probability and related results
 - Separating words and trace reconstruction
