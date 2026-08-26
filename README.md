@@ -10,7 +10,6 @@ This repository has works broken down into catagories, based on the type of obje
 
 Here is a list of a few useful resources that are not necessarily papers: 
 - [Blog post by Mingda Qiao](https://theorydish.blog/2021/06/29/trace-reconstruction/comment-page-1/?unapproved=226352&moderation-hash=6b4525b9205ab4125f2e3687c124cca9#respond): This blog post is an excellent quick tutorial on string trace reconstruction. It also makes the connection between trace reconstruction and complex polynomials quite clear. (This connection was used for several state of the art string trace reconstruction results)
-- 
 
 
 
