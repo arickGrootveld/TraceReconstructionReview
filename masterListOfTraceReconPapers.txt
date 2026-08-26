@@ -4,7 +4,7 @@ Covered:
 - Reconstructing Strings From Random Traces
 - Trace Reconstruction: Generalized and Parameterized
 - Optimal Mean-Based Algorithms for Trace Reconstruction
-- 
+- New Upper Bounds for Trace Reconstruction
 
 Uncovered: 
 - A Survey of Results for Deletion Channels and Related Synchronization Channels
