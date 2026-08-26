@@ -24,7 +24,7 @@ Uncovered:
 - Lower bounds for trace reconstruction
 - Approximate Trace Reconstruction: Algorithms
 - Subpolynomial trace reconstruction for random strings and arbitrary deletion probability
-- New upper bounds for trace reconstruction
+- New Lower Bounds for Trace Reconstruction
 - Trace reconstruction of matrices and hypermatrices
 - Limitations of mean-based algorithms for trace reconstruction at small distance
 - Near-optimal average-case approximate trace reconstruction from few traces
@@ -48,5 +48,7 @@ Uncovered:
 - Average-case to (shifted) worst-case reduction for the trace reconstruction problem
 - New Bounds for Circular Trace Reconstruction
 - Quasipolynomial Trace Reconstruction
+- The trace reconstruction problem for spider graphs
+- Reconstruction of objects from the minimum number of distorted patterns
 
 
