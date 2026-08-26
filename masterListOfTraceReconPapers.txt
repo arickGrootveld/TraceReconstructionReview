@@ -2,6 +2,9 @@ A list of trace reconstruction and population reconstruction papers to read:
 
 Covered:
 - Reconstructing Strings From Random Traces
+- Trace Reconstruction: Generalized and Parameterized
+- 
+- 
 
 Uncovered: 
 - A Survey of Results for Deletion Channels and Related Synchronization Channels
