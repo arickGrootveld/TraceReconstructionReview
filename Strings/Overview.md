@@ -29,7 +29,7 @@ The paper provides these guarantees: For the vast majority of strings, and $p = 
 # Trace Reconstruction: Generalized and Parameterized
 \cite{krishnamurthy2021trace} by Akshay Krishnamurthy, Arya Mazumdar, Andrew McGregor, and Soumyabrata Pal. This paper covers several versions of the string trace reconstruction problem. In particular they deal with string trace reconstruction for $k$-sparse strings, and a matrix trace reconstruction problem for worst case and randomly generated matrices. In this paper, they have $p$ being the deletion probability (though they also deal with specific variants involving different deletion probabilities for $1$'s and $0$'s), $n$ the length of the string or total number of elements in the matrix, and $m$ being the number of traces required. 
 
-They employ four different techniques for proving all of these results: learning the parameters of a binomial mixture distribution, hierarchical clustering, a k-deck combinatorial argument, and a multivariate polynomial complex analysis technique (similar to previous works with evaluating Littlewood polynomials). 
+They employ four different techniques for proving all of these results: learning the parameters of a binomial mixture distribution, hierarchical clustering, a k-deck combinatorial argument, and a complex analysis technique for multivariate polynomials (similar to the method described in \cite{de2017optimal} for evaluating Littlewood polynomials). 
 
 Their results are as follows: 
 - *Theorem 1*: For a string $x \in (0,1)^n$, with at most $k$ non-zero elements, then assuming $1 - p = \Omega( k^{-1/2} \log(n) )$, $m = \exp\{ O( (k/(1-p))^{1/3} \log^{2/3}(n) ) \}$ traces will allow recovery with high probability.
@@ -49,9 +49,9 @@ To prove Theorem 2 they construct a graph for each trace on $k$ vertices. Each v
 
 Ryan O'Donnell explains the paper far better than I could in [this YouTube video](https://www.youtube.com/watch?v=Ys11H5smSIM). 
 
-This paper was a serious step forward in string trace reconstruction, specifically because it showed an equivalence between the string trace reconstruction problem, and finding Littlewood polynomials on an disk in the complex plane with the smallest modulus. They first showed that the worst case string trace reconstruction problem can be made equivlanent to finding a polynomial with small modulus on the unit disk in the complex plane, and then reduced that problem through probabilistic analysis to the Littlewood Polynomial analysis problem. 
+This paper was a major step forward in string trace reconstruction, specifically because it showed an equivalence between the string trace reconstruction problem, and finding Littlewood polynomials on an disk in the complex plane with the smallest modulus. They first showed that the worst case string trace reconstruction problem can be made equivlanent to finding a polynomial with small modulus on the unit disk in the complex plane, and then reduced that problem through probabilistic analysis to the Littlewood Polynomial analysis problem. 
 
-The paper also showed results for a general deletion, insertion, bit flip channel, though the analysis process was largely the same as the deletion channel. The sample complexity was relatively similar to the sample complexity of recovering from the deletion channel. They also found an interesting result, that sometimes more insertions can help with string trace recovery in very specific settings. 
+It also showed results for a general deletion, insertion, bit flip channel, though the analysis process was largely the same as the deletion channel. The sample complexity was relatively similar to the sample complexity of recovering from the deletion channel. They also found an interesting result, that sometimes more insertions can help with string trace recovery in very specific settings. 
 
 
 
