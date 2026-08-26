@@ -3,7 +3,7 @@ A list of trace reconstruction and population reconstruction papers to read:
 Covered:
 - Reconstructing Strings From Random Traces
 - Trace Reconstruction: Generalized and Parameterized
-- 
+- Optimal Mean-Based Algorithms for Trace Reconstruction
 - 
 
 Uncovered: 
