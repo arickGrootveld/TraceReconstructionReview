@@ -50,5 +50,7 @@ Uncovered:
 - Quasipolynomial Trace Reconstruction
 - The trace reconstruction problem for spider graphs
 - Reconstruction of objects from the minimum number of distorted patterns
+- On k-merbased and maximum likelihood estimation algorithms for trace reconstruction
+- Quasipolynomial Trace Reconstruction
 
 
