@@ -52,5 +52,6 @@ Uncovered:
 - Reconstruction of objects from the minimum number of distorted patterns
 - On k-merbased and maximum likelihood estimation algorithms for trace reconstruction
 - Quasipolynomial Trace Reconstruction
+- Average-Case to (shifted) Worst-Case Reduction for the Trace Reconstruction Problem
 
 
