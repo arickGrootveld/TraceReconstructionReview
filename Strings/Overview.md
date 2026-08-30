@@ -4,7 +4,7 @@ Table of current best bounds for various problems (to the best of my knowledge a
 | (Upper Bound) Arbitrary String Trace Reconstruction | $\exp\left(O( (log_2 n)^c) \right)$ | Quasipolynomial Trace Reconstruction |         2026 |
 | (Lower Bound) Worst Case String Trace Reconstruction | $\Omega\left(\frac{n^{3/2}}{\log^7(n)}\right)$ | New Lower Bounds for Trace Reconstruction | 2019 |
 | (Lower Bound) Average Case String Trace Reconstruction  |  $\Omega\left(\frac{\log^{5/2}(n)}{(\ \log(\log(n))\ )^7}\right)$  |  New Lower Bounds for Trace Reconstruction  | 2019 |
-| (Upper Bound) Random String Trace Reconstruction | $\exp\left(O(\log^{1/3}(n))\right)$  | Subpolynomial trace reconstruction for random strings and arbitrary deletion probability  | 2018  |
+| (Upper Bound) Random String Trace Reconstruction | $\exp\left(\tilde O(\log^{1/5}(n))\right)$  | Average-Case to (Shifted) Worst-Case Reduction for the Trace Reconstruction Problem  | 2023  |
 | (Upper Bound) Coded Trace Reconstruction  | Rate $1 - \frac{1}{\log(n)}$, recoverable from $\exp\left(O(\log^{2/3}(n))\right)$ traces   | Coded Trace Reconstruction | 2020 |
 | (Upper Bound) Approximate Trace Reconstruction  | For retention rate $\rho= \omega(\log(n) / n)$, can reconstruct from 1 trace, with $\mathbb{E}$[LCS] $\geq 2/3 - o(1) n$ |  Approximate Trace Reconstruction from a Single Trace  | 2023 |
 
