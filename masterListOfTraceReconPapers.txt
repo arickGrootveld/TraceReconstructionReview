@@ -53,5 +53,6 @@ Uncovered:
 - On k-merbased and maximum likelihood estimation algorithms for trace reconstruction
 - Quasipolynomial Trace Reconstruction
 - Average-Case to (shifted) Worst-Case Reduction for the Trace Reconstruction Problem
+- Quantitative Lower Bounds For Trace Reconstruction (https://github.com/openai/math/blob/main/preprints/quantitative-lower-bounds-for-trace-reconstruction-September-24-2026/paper.pdf)
 
 
